@@ -6,7 +6,6 @@ const userRoutes = require('./routes/user');
 const postRoutes = require('./routes/post');
 
 const path = require('path');
-//const likeRoutes = require('./routes/like.js');
 
 //création application Express
 const app = express();

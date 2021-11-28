@@ -72,6 +72,7 @@ export default {
 .wall {
   min-height: 100%;
   padding: 5rem 0 2rem 0;
+  margin-top: 1.7rem;
 }
 .block-post {
   background-color: AliceBlue;
@@ -85,21 +86,6 @@ export default {
     color: grey;
     margin: 0.25rem 0;
     font-size: 0.75rem;
-  }
-  & .like-section {
-    & div {
-      display: inline-block;
-      margin: 0 0.5rem;
-      & i {
-        margin: 0 0.2rem;
-      }
-      & a {
-        text-decoration: none;
-        color: grey;
-      }
-    }
-    font-weight: 700;
-    color: grey;
   }
 }
 </style>

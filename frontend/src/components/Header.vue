@@ -32,7 +32,7 @@
           </router-link>
         </li>
         <li class="nav-item" v-if="user.token!==null">
-          <button type="button" class="btn btn-danger" @click="disconnect">Disconnect</button>
+          <button type="button" class="btn btn-danger" @click="disconnect">Deconnection</button>
         </li>
       </ul>
     </div>
