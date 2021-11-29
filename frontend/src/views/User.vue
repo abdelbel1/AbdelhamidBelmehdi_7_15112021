@@ -206,4 +206,9 @@ export default {
 </script>
 
 <style lang="scss">
+
+.row{
+  margin: 0;
+}
+
 </style>

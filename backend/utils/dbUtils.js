@@ -5,7 +5,6 @@ let models = require('../models');
 
 module.exports ={
     isAdmin:function(user){
-        //A traiter
         return true
     }
 }
