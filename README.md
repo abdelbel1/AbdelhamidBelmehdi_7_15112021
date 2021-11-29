@@ -29,19 +29,20 @@ Pour installer ce projet veuillez vous procurer :
 Cloner le repo Git: https://github.com/abdelbel1/AbdelhamidBelmehdi_7_15112021
 
 ## Front-End
-cd frontend
-npm install
+cd frontend<br />
+npm install<br />
 npm run serve
 
 ## Back-End
-cd backend
-npm install
+cd backend<br />
+npm install<br />
+créer un dossier images/<br /> 
 nodemon server
 
 ## Database
-Sequelize-CLI
-DB Migrate
-DB Create
+Sequelize-CLI<br />
+DB Create<br />
+DB Migrate<br />
 Import script.sql
 
 ## Lancement
