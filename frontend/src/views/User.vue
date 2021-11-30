@@ -39,7 +39,7 @@
             data-toggle="modal"
             data-target="#BoxModalChgPwd"
             @click="testInputs"
-          >Change</button>
+          >Changer</button>
           <!--Box Modal pour changement PWD-->
           <div
             class="modal fade"
@@ -85,7 +85,7 @@
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary" @click="changePassword">Save changes</button>
+                  <button type="button" class="btn btn-primary" @click="changePassword">Sauvegarder les changements</button>
                 </div>
                 <p id="retour-api" class="text-center">{{retourAPI}}</p>
               </div>
@@ -97,7 +97,7 @@
           type="button"
           class="btn btn-danger white d-block mx-auto mt-5 mb-2"
           @click="deleteAccount"
-        >Delete account</button>
+        >Supprimer le compte</button>
       </div>
     </section>
   </main>

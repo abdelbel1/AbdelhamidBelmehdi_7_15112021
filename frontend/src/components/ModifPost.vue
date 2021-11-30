@@ -34,7 +34,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
-          <button type="button" class="btn btn-primary" @click="updatePost">Save changes</button>
+          <button type="button" class="btn btn-primary" @click="updatePost">Sauvegarder les changements</button>
         </div>
       </div>
 
